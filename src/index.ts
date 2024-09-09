@@ -5,4 +5,8 @@ console.log("Hello, world!");
 
 const user  = new User({name: "John", age: 30});
 
-console.log(user.get("name"));
+console.log(user);
+
+user.on("change", () => {
+  
+});
